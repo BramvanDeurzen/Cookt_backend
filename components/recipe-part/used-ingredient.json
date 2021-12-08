@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_recipe_part_used_ingredients",
+  "info": {
+    "name": "used-ingredient",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "float"
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "g",
+        "ml",
+        "cloves",
+        "cup",
+        "teaspoon",
+        "tablespoon"
+      ],
+      "default": "g"
+    },
+    "ingredient": {
+      "model": "ingredient"
+    }
+  }
+}

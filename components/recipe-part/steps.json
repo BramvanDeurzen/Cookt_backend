@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_recipe_part_steps",
+  "info": {
+    "name": "steps",
+    "icon": "list-ol",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "instructions": {
+      "type": "richtext"
+    },
+    "ingredients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "recipe-part.used-ingredient"
+    },
+    "substeptag": {
+      "type": "string"
+    },
+    "time": {
+      "type": "time",
+      "default": "00:05:00"
+    }
+  }
+}
