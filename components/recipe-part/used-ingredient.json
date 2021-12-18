@@ -14,11 +14,18 @@
       "type": "enumeration",
       "enum": [
         "g",
+        "kg",
         "ml",
+        "l",
+        "tsp",
+        "tbsp",
         "cloves",
         "cup",
-        "teaspoon",
-        "tablespoon"
+        "stalks",
+        "sprigs",
+        "large",
+        "small",
+        "leaves"
       ],
       "default": "g"
     },
